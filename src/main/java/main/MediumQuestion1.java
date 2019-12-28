@@ -31,8 +31,7 @@ class SeniorCitizenCustomer extends Customer {
 	}
 	
 	Double getBillAmount(Double amount) {
-		Double bill =null; //edit as per the question
-		//Write your code here of required
+		Double bill =null; 
 		bill=(amount*10)/100;
 		bill=amount-bill;
 		return bill;
@@ -45,8 +44,7 @@ class PrivilegeCustomer extends Customer {
 			super(name, address, age, mobile);
 		}
 		Double getBillAmount(Double amount) {
-			Double bill = null; //edit as per the Question 
-			//write your code here if required.
+			Double bill = null; 
 			bill=(amount*30)/100;
 			bill=amount-bill;
 			return bill;
